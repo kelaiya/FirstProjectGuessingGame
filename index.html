@@ -20,29 +20,29 @@
         <div id='main'>
             <div id='input-parent'>
                 <!-- Player's guess input, and submit button -->
-                <center>
-                    <input id='player-input' class='center' placeholder="    #" maxlength="3" autofocus=autofocus></input>
-                </center>
-                <center>
-                    <button id='submit' class='btn btn-success'> GO! </button>
-                </center>
+                
+                    <input id='player-input' class='center' placeholder="#" maxlength="3" autofocus=autofocus></input>
+                
+                
+                    <button class='btn btn-success' id='submit'> GO!</button>
+                
             </div>
             <div id='guesses'>
                 <!-- unordered list of guesses -->
                 <center>
                     <ul id='guess-list'>
-                        <li class='guess'>#</li>
-                        <li class='guess'>#</li>
-                        <li class='guess'>#</li>
-                        <li class='guess'>#</li>
+                        <li class='guess'>0</li>
+                        <li class='guess'>0</li>
+                        <li class='guess'>0</li>
+                        <li class='guess'>0</li>
                     </ul>
                 </center>
             </div>
             <div id="menu-btns">
                 <!-- reset and hint buttons -->
                 <center>
-                    <button id='reset' class='btn btn-warning'> Reset </button>
-                    <button id='hint' class='btn btn-info'> Hint </button>
+                    <button class='btn btn-warning' id='reset'> Reset</button>
+                    <button class='btn btn-info' id='hint'> Hint</button>
                 </center>
             </div>
         </div>
@@ -63,7 +63,7 @@
         </div>
     </center>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script src="GuessingGame-Part2/GuessingGame.js"></script>
+    <script src="GuessingGame.js"></script>
 
 </body>
 

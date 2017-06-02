@@ -8,8 +8,8 @@
       }
       img {
           display: inline;
-          width: 200px;
-          height: 100px;
+          width: 350px;
+          height: 120px;
       }
       #footer {
           width: 100%;
@@ -20,13 +20,14 @@
       }
       .guess {
         display: inline;
-        font-size: 60px;
+        font-size: 30px;
         border: 1px solid black;
         padding: 0 25px;
         border-radius: 10%;
+        background-color: white;
       }
       #player-input {
-        border-radius: 50%;
+        border-radius: 70%;
         width: 160px;
         height: 160px;
         font-size: 60px;
