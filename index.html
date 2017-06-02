@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guessing Game</title>
+    <!-- Bootstrap and CSS here-->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+</head>
+
+<body>
+    <div id='app' class='center container'>
+        <div id='headers'>
+            <!-- Title and subtitles! -->
+            <center>
+                <h1 id="title" width:160px> Lets Play!!! </h1>
+                <h3 id='subtitle'> Guess any number </h3>
+            </center>
+        </div>
+        <div id='main'>
+            <div id='input-parent'>
+                <!-- Player's guess input, and submit button -->
+                <center>
+                    <input id='player-input' class='center' placeholder="    #" maxlength="3" autofocus=autofocus></input>
+                </center>
+                <center>
+                    <button id='submit' class='btn btn-success'> GO! </button>
+                </center>
+            </div>
+            <div id='guesses'>
+                <!-- unordered list of guesses -->
+                <center>
+                    <ul id='guess-list'>
+                        <li class='guess'>#</li>
+                        <li class='guess'>#</li>
+                        <li class='guess'>#</li>
+                        <li class='guess'>#</li>
+                    </ul>
+                </center>
+            </div>
+            <div id="menu-btns">
+                <!-- reset and hint buttons -->
+                <center>
+                    <button id='reset' class='btn btn-warning'> Reset </button>
+                    <button id='hint' class='btn btn-info'> Hint </button>
+                </center>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div id='footer' class='center'>
+            <div class='row'>
+                <div class='col-sm-4'>
+                    <img src='fa-logo@2x.png'></img>
+                </div>
+                <div class='col-sm-4'>
+                    <h4>Project by KELAIYA PARIKH</h4>
+                </div>
+                <div class='col-sm-4'>
+                    <img src='grace_hopper_academy.png'></img>
+                </div>
+            </div>
+        </div>
+    </center>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="GuessingGame-Part2/GuessingGame.js"></script>
+
+</body>
+
+</html>
