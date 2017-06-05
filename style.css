@@ -8,8 +8,11 @@
       }
       img {
           display: inline;
-          width: 350px;
+          width: 380px;
           height: 120px;
+      }
+      #title{
+        color: red;
       }
       #footer {
           width: 100%;
@@ -17,6 +20,10 @@
           background-color: white;
           position: fixed;
           bottom: 0;
+          font-family: times;
+          color: red;
+          font-style: bold;
+          font-size: 60;
       }
       .guess {
         display: inline;
@@ -31,6 +38,7 @@
         width: 160px;
         height: 160px;
         font-size: 60px;
+        position: center;
       }
 
       #submit {
@@ -50,6 +58,7 @@
 
       body {
         background-image: url('gamepic.jpg');
+        background-size: 100% 100%;
       }
 
       #app {

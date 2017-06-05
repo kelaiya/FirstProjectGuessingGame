@@ -86,7 +86,7 @@ Game.prototype.provideHint = function() {
 
 function makeaguess(game){
     var guess = $("#player-input").val();
-     $("player-input").val("");
+     $("#player-input").val("");
      var output = game.playersGuessSubmission(parseInt(guess, 10));
     $("#title").text(output);
 }
@@ -112,8 +112,8 @@ function makeaguess(game){
         game = newGame();
         $("#title").text("Lets Play!!!");
         $("#subtitle").text("Guess any number");
-        $(".guess").text("#");
-        $("#input-parent id:first").text("#")
+        $(".guess").text("0");
+        $("#player-input").val("");
         $("#hint, #submit").prop("disabled", false);
      })
 
